@@ -13,6 +13,7 @@ indicating the start, end, and waypoint clearly.
 * Next, we aim to compute the trajectory as a fifth degree Bernstein polynomial, i.e. as a linear combination of
 the Bernstein basis polynomials. 
 * To complicate things, an evil robot of radius 2 units appears at (5, 4) to steal his cookie. The robot,
-whose radius is 1 unit, must avoid this evil robot in order to successfully deliver the cookie. Given an obstacle in this scenario, we need to build a trajectory to solve this problem, which can be done in two approaches as shown in the document
+whose radius is 1 unit, must avoid this evil robot in order to successfully deliver the cookie. Given an obstacle in this scenario, we need to build a trajectory to solve this problem, which can be done in two approaches as shown in the document.
 
-The code plots the velocity and acceleration profiles for both polynomials. The derivation for the motion models is given in Outputs.pdf.
+The code plots the velocity and acceleration profiles for both polynomials, which we ensure is continuous. The derivation for the motion models is given in Outputs.pdf. 
+
